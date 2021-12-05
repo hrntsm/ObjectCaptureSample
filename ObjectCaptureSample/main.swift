@@ -11,8 +11,8 @@ import RealityKit
 import Metal
 
 // 入出力の設定
-let inputFolder = "/Users/hrntsm/Desktop/ObjectCaptureItems/FruitCakeSlice"
-let outputFilename = "/Users/hrntsm/Desktop/item.usdz"
+let inputFolder = "ここにインプットする画像のフォルダのパスを入れる"
+let outputFilename = "ここに作成したファイルの出力先を入れる（拡張子は .usdz）"
 
 // Session の設定作成
 let inputFolderUrl = URL(fileURLWithPath: inputFolder, isDirectory: true)
